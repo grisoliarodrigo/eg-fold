@@ -5,7 +5,7 @@ import org.eclipse.xtend.lib.annotations.Accessors
 
 @Accessors
 class Materia {
-	
+	// Lista de alumnos
 	List<Alumno> alumnos = newArrayList 
 	
 	def Double getPromedioGeneral() {
